@@ -1,5 +1,5 @@
 #include<stdbool.h>
-#include "../node/tree.h"
+#include "../utils/tree.h"
 
 typedef struct qNode{
     tree data;
