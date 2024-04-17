@@ -49,7 +49,7 @@ int main(int argc, char** argv){
     tree t;
     hashtable_create(&huffchar_to_code);
     hashtable_create(&huffcode_to_char);
-    int elements = (int)htable->length;
+    int elements = (int)freqMap->length;
     for (int i = 0 ; i < elements ; i++){
         // printf("%s - %d\n",(char *)iterator.key, *(int *)iterator.value);
         insert_node_ll(&list, (char *)iterator.key, *(int *)iterator.value);
